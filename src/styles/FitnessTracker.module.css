@@ -1,0 +1,124 @@
+/* .container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.goal {
+  color: green;
+  font-weight: bold;
+} */
+
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  color: white;
+}
+
+/* Form Card */
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+
+form:hover {
+  transform: scale(1.02);
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2a5298;
+  box-shadow: 0 0 8px rgba(42, 82, 152, 0.3);
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(221, 36, 118, 0.3);
+}
+
+/* Workout List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: white;
+  color: black;
+  margin: 10px auto;
+  padding: 12px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+  transition: 0.2s;
+}
+
+li:hover {
+  transform: scale(1.03);
+}
+
+/* Goal Achieved */
+.goal {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #00ffcc;
+  font-size: 18px;
+}
