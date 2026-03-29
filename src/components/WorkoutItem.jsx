@@ -1,9 +1,12 @@
 import React from "react";
 
-export default function WorkoutItem({ workout }) {
+export default function WorkoutItem({ workout, deleteWorkout }) {
   return (
-    <li>
-      {workout.name} - {workout.calories} cal
+    <li className="card">
+      <span>
+        {workout.name} - {workout.calories} cal
+      </span>
+      <button onClick={() => deleteWorkout(workout.id)}>❌</button>
     </li>
   );
 }

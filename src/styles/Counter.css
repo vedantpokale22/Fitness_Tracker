@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.count {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #4a47a3;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.increment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.increment:hover {
+  background-color: #45a049;
+}
+
+.decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+.decrement:hover {
+  background-color: #d32f2f;
+}
+
+.reset {
+  background-color: #2196f3;
+  color: white;
+}
+
+.reset:hover {
+  background-color: #1976d2;
+}
